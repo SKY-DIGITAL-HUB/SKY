@@ -244,7 +244,7 @@
     <div class="box">
         <h2>Welcome to Course Central</h2>
         <p>Your ultimate platform for curated courses and educational resources.</p>
-        <button onclick="window.location.href='#home';">Explore Course Central</button>
+        <button onclick="window.location.href='url1';">Explore Course Central</button>
     </div>
 
     <div class="box">
@@ -256,5 +256,22 @@
     <footer>
         <p>Empowering Your Learning Journey. | Achieve Greatness, Together.</p>
     </footer>
+<script src="https://raw.githubusercontent.com/SKY-DIGITAL-HUB/SKY/main/link-manager.js"></script>
+<script>
+  async function init() {
+    const links = await getLinksForFile('MBA', 'finance');
+    console.log(links);
+    // Use links dynamically, e.g., create buttons or hyperlinks
+    for (const [repo, url] of Object.entries(links)) {
+      const button = document.createElement('a');
+      button.href = url;
+      button.textContent = `Go to ${repo}`;
+      button.style.display = 'block';
+      document.body.appendChild(button);
+    }
+  }
+  init();
+</script>
+
 </body>
 </html>
