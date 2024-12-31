@@ -1,0 +1,20 @@
+{
+  "repositories": {
+    "MBA": {
+      "finance": {
+        "B.com": "https://raw.githubusercontent.com/SKY-DIGITAL-HUB/B.com/main/comers.html",
+        "SKY": "https://raw.githubusercontent.com/SKY-DIGITAL-HUB/SKY/main/index.html"
+      }
+    },
+    "B.com": {
+      "comers": {
+        "MBA": "https://raw.githubusercontent.com/SKY-DIGITAL-HUB/MBA/main/finance.html"
+      }
+    },
+    "SKY": {
+      "index": {
+        "MBA": "https://raw.githubusercontent.com/SKY-DIGITAL-HUB/MBA/main/index.html"
+      }
+    }
+  }
+}
