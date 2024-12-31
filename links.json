@@ -6,6 +6,12 @@
         "SKY": "https://raw.githubusercontent.com/SKY-DIGITAL-HUB/SKY/main/index.html"
       }
     },
+    "MBA": {
+      "fin.html": {
+        "SKY": "https://raw.githubusercontent.com/SKY-DIGITAL-HUB/MBA/main/fin.html",
+      
+      }
+    },
     "B.com": {
       "comers": {
         "MBA": "https://raw.githubusercontent.com/SKY-DIGITAL-HUB/MBA/main/finance.html"
